@@ -1,50 +1,50 @@
-# Welcome to your Expo app 👋
+# Projeto React Native com Expo: Manipulação de Arquivos Excel
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este projeto é uma aplicação móvel desenvolvida com React Native e Expo, que tem como objetivo fornecer uma solução para empresas que precisam acessar e manipular dados armazenados em arquivos Excel diretamente de seus dispositivos móveis. Utilizando as bibliotecas `xlsx`, `expo-file-system` e `expo-document-picker`, o aplicativo permite aos usuários selecionar e ler arquivos Excel, além de exibir as informações de forma organizada.
 
-## Get started
+## Funcionalidades
 
-1. Install dependencies
+- **Selecionar Arquivos Excel**: O usuário pode escolher arquivos Excel armazenados no dispositivo.
+- **Ler Arquivos Excel**: O conteúdo do arquivo é lido e convertido em formato JSON para facilitar a manipulação e exibição dos dados.
+- **Exibição de Dados**: Os dados do arquivo Excel são exibidos na tela em formato JSON, permitindo uma visualização simples e organizada.
 
-   ```bash
-   npm install
-   ```
+## Pré-requisitos
 
-2. Start the app
+Antes de rodar o projeto, é necessário ter as seguintes ferramentas instaladas:
 
-   ```bash
-    npx expo start
-   ```
+- **Node.js**: O Node.js é necessário para executar o gerenciador de pacotes `npm` e iniciar o projeto.
+- **Expo CLI**: O Expo CLI facilita a criação e execução de projetos React Native.
+- **Expo Go** (dispositivo móvel): O aplicativo Expo Go, disponível na Play Store e App Store, é utilizado para visualizar o aplicativo em um dispositivo físico.
 
-In the output, you'll find options to open the app in a
+## Instalação
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Siga os passos abaixo para configurar o projeto em seu ambiente de desenvolvimento.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 1. Instalar o Node.js
 
-## Get a fresh project
+Se ainda não tem o Node.js instalado, baixe e instale a versão mais recente do Node.js através do site oficial.
 
-When you're ready, run:
+### 2. Instalar o Create Expo App
 
-```bash
-npm run reset-project
-```
+Instale o `create-expo-app` globalmente para facilitar a criação de novos projetos Expo.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 3. Criar o Projeto
 
-## Learn more
+Crie um novo projeto utilizando o `npx create-expo-app` seguido do nome que deseja dar ao seu projeto.
 
-To learn more about developing your project with Expo, look at the following resources:
+### 4. Navegar para o Diretório do Projeto
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Após criar o projeto, navegue até o diretório recém-criado para começar a trabalhar nele.
 
-## Join the community
+### 5. Instalar Dependências
 
-Join our community of developers creating universal apps.
+Dentro do diretório do projeto, instale as dependências necessárias para manipulação de arquivos Excel, como `xlsx`, `expo-file-system` e `expo-document-picker`.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### 6. Iniciar o Servidor de Desenvolvimento
+
+Inicie o servidor de desenvolvimento e utilize o Expo Go para escanear o QR Code que será gerado, permitindo a visualização do aplicativo em seu dispositivo móvel.
+
+## Estrutura de Diretórios
+
+A estrutura do seu projeto será semelhante a:
+ ├── App.js ├── node_modules/ ├── package.json ├── assets/ ├── components/ 
