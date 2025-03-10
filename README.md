@@ -46,5 +46,5 @@ Inicie o servidor de desenvolvimento e utilize o Expo Go para escanear o QR Code
 
 ## Estrutura de Diretórios
 
-A estrutura do seu projeto será semelhante a:
+A estrutura do projeto está desenhado no seguinte modo:
  ├── App.js ├── node_modules/ ├── package.json ├── assets/ ├── components/ 
